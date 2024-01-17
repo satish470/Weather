@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+body {
+    background-image: linear-gradient(to left top, #c4c1c3, #cabeca, #cbbcd4, #c6bbe0, #babcee, #acc3f6, #9ccafc, #8bd1ff, #85dcff, #86e6fd, #8ef0f8, #9cf8f2);
+    height: 100vh;
+
+
+}
+
+.hell {}
+
+.mainContainer {
+
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(42, 74, 70, 0.09);
+    color: rgba(42, 74, 70, 5);
+    padding: 35px;
+    border-radius: 25px;
+}
+
+#usrInp {
+    border: none;
+    height: 50px;
+    border-radius: 35px;
+    width: 85%;
+    padding: 0 15px 0 35px;
+    font-size: 20px;
+    outline: none;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    right: 10%;
+    color: #000;
+    height: 52px;
+    font-size: 20px;
+    border-radius: 35%;
+    outline: none;
+    border-width: 0;
+}
+
+.bottom {
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80vw;
+    justify-content: space-around;
+}
+
+.bottom p{ 
+    font-size: 4vh;
+
+}
